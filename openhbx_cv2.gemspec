@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.license = "MIT"
   s.test_files = `git ls-files -- spec/*`.split("\n")
 
-  s.add_runtime_dependency(%q<nokogiri-happymapper>, "~>0.5")
+  s.add_runtime_dependency(%q<nokogiri-happymapper>)
   s.add_runtime_dependency(%q<activesupport>, ">= 3.2")
   s.add_development_dependency(%q<rspec>, "~>3.5")
 end
